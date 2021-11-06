@@ -26,7 +26,9 @@ export default function Movies() {
   };
 
   const handleDelete = (movieId) => {
-    alert("Movie deleted!");
+    API.movies.deleteMovie(movieId).then(() => {
+      setMovies(movies.filter((movie) => movie._id !== movieId));
+    });
   };
 
   const handleAddMovie = (movie) => {
