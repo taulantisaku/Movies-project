@@ -31,7 +31,7 @@ Some application screenshots:
 --- 
 <h1> Some code review </h1>
 <h3> Fetching movies </h3>
-Since we need to fetch movies in two different pages(components), Home page (for slider) and Movies page, I used a custom hook called useFetchMovies to fetch the movies from the database: 
+Since we need to fetch movies in both Home page (for slider) and Movies page, I used a custom hook called useFetchMovies to fetch the movies from the database: 
 
 ![CustomHook](https://user-images.githubusercontent.com/44265863/140739211-158a8d95-a934-430f-bbcd-37d66baa0f5f.jpg)
 
