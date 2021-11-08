@@ -3,10 +3,10 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Col, CardImg } from "reactstrap";
 import Spinner from "../components/Spinner";
-import useFetch from "../components/shared/useFetch";
+import useFetchMovies from "../components/shared/useFetchMovies";
 
 export default function Home() {
-  const { movies, loading } = useFetch();
+  const { movies, loading } = useFetchMovies();
 
   const settings = {
     dots: true,

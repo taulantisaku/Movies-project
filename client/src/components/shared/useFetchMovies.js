@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import API from "../../api/index";
 
-const useFetch = () => {
+const useFetchMovies = () => {
   const [movies, setMovies] = useState([]);
   const [loading, setLoading] = useState(true);
 
@@ -18,4 +18,4 @@ const useFetch = () => {
   return { movies, loading };
 };
 
-export default useFetch;
+export default useFetchMovies;

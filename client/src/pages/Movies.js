@@ -6,10 +6,10 @@ import EditMovie from "./EditMovie";
 import Spinner from "../components/Spinner";
 import API from "../api/index";
 import { MovieDetails } from "./MovieDetails";
-import useFetch from "../components/shared/useFetch";
+import useFetchMovies from "../components/shared/useFetchMovies";
 
 export default function Movies() {
-  const { movies, setMovies, loading } = useFetch();
+  const { movies, setMovies, loading } = useFetchMovies();
 
   const handleFeatured = (movieId) => {
     const movie = movies.find((m) => m._id === movieId);
