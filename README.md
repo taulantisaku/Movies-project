@@ -29,7 +29,7 @@ Some application screenshots:
 
 ![Admin-logged-in](https://user-images.githubusercontent.com/44265863/140621487-7d49ff90-36a6-4007-bb44-3e5f52ca6a00.jpg)
 --- 
-#Code review
+<h2> Code Review </h2>
 
 Since we need to fetch movies in two different pages(components), Home page (for slider) and Movies page, I used a custom hook called useFetchMovies to fetch the movies from the database: 
 
