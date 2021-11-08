@@ -30,7 +30,7 @@ Some application screenshots:
 ![Admin-logged-in](https://user-images.githubusercontent.com/44265863/140621487-7d49ff90-36a6-4007-bb44-3e5f52ca6a00.jpg)
 --- 
 <h2> Some code review </h2>
-
+<h4> Fetching movies </h4>
 Since we need to fetch movies in two different pages(components), Home page (for slider) and Movies page, I used a custom hook called useFetchMovies to fetch the movies from the database: 
 
 ![CustomHook](https://user-images.githubusercontent.com/44265863/140739211-158a8d95-a934-430f-bbcd-37d66baa0f5f.jpg)
@@ -44,4 +44,9 @@ axiosInstance represents the base URL "http://localhost:4000/api".
 In similar way we make other api calls like add, update or delete movie using the routes created in server (express): 
 ![Routes](https://user-images.githubusercontent.com/44265863/140740192-4347a164-011e-4588-82b5-443079cf69bd.jpg)
 
+<h4> Login with JWT </h4>
+
+Using JWT authorization, we can manage to log in and keep that user logged in by storing the token in local storage: 
+
+![jwt-auth](https://user-images.githubusercontent.com/44265863/140747456-3977aebd-811f-498c-981b-36bcbf91f09e.jpg)
 
