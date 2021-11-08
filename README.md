@@ -40,7 +40,7 @@ In this function, we make a call using the API object created for api calls. Ins
 
 axiosInstance represents the base URL "http://localhost:4000/api". 
 
-In similar way we make other api calls like add, update or delete movie using the routes created in server (nodejs): 
+In similar way we make other api calls like add, update or delete movie using the routes created in server (express): 
 ![Routes](https://user-images.githubusercontent.com/44265863/140740192-4347a164-011e-4588-82b5-443079cf69bd.jpg)
 
 
