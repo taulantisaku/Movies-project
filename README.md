@@ -5,7 +5,7 @@ It has integrated authorization with JWT(JSON Web Token), whereas an admin can  
 We can also add new users by registering them. </h3>
 
 -Main React features used: 
-* React Hooks; such as useState,useEffect, useContext
+* React Hooks; such as useState,useEffect, useContext, custom Hooks
 * React Router library, for navigating on the pages
 * React-slick slider, for showing movie slider on Home page
 * Axios, for fetching the movies from database 
