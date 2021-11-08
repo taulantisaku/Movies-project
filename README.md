@@ -29,13 +29,14 @@ Some application screenshots:
 
 ![Admin-logged-in](https://user-images.githubusercontent.com/44265863/140621487-7d49ff90-36a6-4007-bb44-3e5f52ca6a00.jpg)
 --- 
-<h2> Code Review </h2>
+<h2> Some code Review </h2>
 
 Since we need to fetch movies in two different pages(components), Home page (for slider) and Movies page, I used a custom hook called useFetchMovies to fetch the movies from the database: 
 
 ![CustomHook](https://user-images.githubusercontent.com/44265863/140739211-158a8d95-a934-430f-bbcd-37d66baa0f5f.jpg)
 
 In this function, we make a call using the API object created for api calls. Inside this object we have a property called movies which makes the api call: 
+
 ![getMoviesAPI-Call](https://user-images.githubusercontent.com/44265863/140739875-06677131-7b27-4f0f-be6e-3a99d58e3e00.jpg)
 
 axiosInstance represents the base URL "http://localhost:4000/api". 
